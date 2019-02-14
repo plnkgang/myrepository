@@ -1,6 +1,5 @@
 h3 {
 	font-size: 70;
-    background-color: blue;  
     color: red;
     text-align: center;
 
@@ -8,8 +7,6 @@ h3 {
 
 
 body {background-color: black;
-      background-image: url("img_tree.png");
-
 
 
 }
@@ -26,4 +23,13 @@ a {}
 
 
 
-p {color: white;}
+p {color: white;
+
+
+
+
+}
+
+
+
+
