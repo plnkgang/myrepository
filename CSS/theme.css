@@ -10,7 +10,10 @@ h3 {
 
 
 body {
-  background-image: url("backgroundd.jpg");
+  background-image: url(backgroundd.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  
 
 }
 
