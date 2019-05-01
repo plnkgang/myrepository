@@ -10,7 +10,8 @@ h3 {
 
 
 body {
-  background:url(../Images/bodyBackground.jpg) fixed center;
+  //background-image:url(../Images/bodyBackground.jpg) 
+  background-color:grey;
  
 }
 
