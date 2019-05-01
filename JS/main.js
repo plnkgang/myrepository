@@ -16,14 +16,36 @@ function biggerNum(){
 
     if (num1>num2){
         console.log(num1+" is the bigger number");
-    }else if(num2>num1){
+    }
+    else if(num2>num1){
         console.log(num2+" is the bigger number");
-    }else if(num1==num2){
+    }
+    else if(num1==num2){
         console.log("The numbers are the same");
-    }else{
+    }
+    else{
         console.log("You didn't enter two numbers");
     }
 }
+
+
+
+function guessNum(){
+
+
+
+
+
+
+
+    
+}
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed!"; 
+  }
+    
+
 
 
 
