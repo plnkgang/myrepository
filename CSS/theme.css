@@ -10,8 +10,7 @@ h3 {
 
 
 body {
-  //background-image:url(../Images/bodyBackground.jpg) 
-  background-color:grey;
+  background-color: black;
  
 }
 
@@ -27,10 +26,10 @@ p {color: white;
 
 
 .content{
-   background: white;
+   background: grey;
    width: 50%;
    padding: 400px;
-   margin: 100px auto;
+   
 
  }
 
