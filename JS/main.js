@@ -41,6 +41,30 @@ function guessNum(){
     
 }
 
+
+
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 function myFunction() {
     document.getElementById("demo").innerHTML = "Paragraph changed!"; 
   }
@@ -49,8 +73,17 @@ function myFunction() {
 
 
 
-
-
+function enterMsg(){
+  var plainText= prompt("Enter Your Message");
+  var wordList= plainText.split(" ")
+  console.log(wordList);
+  
+}
+enterMsg()
+for(var i=0; i<wordList.length; i++;){
+  
+  
+}
 
 
 
