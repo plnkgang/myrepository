@@ -30,16 +30,6 @@ function biggerNum(){
 
 
 
-function guessNum(){
-
-
-
-
-
-
-
-    
-}
 
 
 
