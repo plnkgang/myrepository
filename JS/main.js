@@ -73,17 +73,23 @@ function myFunction() {
 
 
 
-function enterMsg(){
+
+
+
+
+function encryptMsg(){
   var plainText= prompt("Enter Your Message");
-  var wordList= plainText.split(" ")
-  console.log(wordList);
   
+  for(var i=0; i<plainText.length; i=i+2;){
+    temp= plainText[i];
+    plainText[i]= plainText[i+1];
+    plainText[i+1]= temp;
+    cypherText= cypherText + plainText[i] + plainText[i+1];
+    console.log(cypherText);
+    
+  }
 }
-enterMsg()
-for(var i=0; i<wordList.length; i++;){
-  
-  
-}
+encryptMsg()
 
 
 
