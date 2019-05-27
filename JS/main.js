@@ -5,6 +5,7 @@ function welcomeUser(){
     alert("Welcome! "+ name);
 
 }
+welcomeUser()
 
 
 
@@ -27,7 +28,7 @@ function biggerNum(){
         console.log("You didn't enter two numbers");
     }
 }
-
+biggerNum()
 
 
 
@@ -70,7 +71,7 @@ function myFunction() {
 function encryptMsg(){
   var plainText = prompt("Enter Your Message");
   
-  for(var i=0; i<plainText.length; i=i+2;){
+  for(var i=0; i<plainText.length; i=i+2){
     temp = plainText[i];
     plainText[i] = plainText[i+1];
     plainText[i+1] = temp;
