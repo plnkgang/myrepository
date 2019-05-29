@@ -75,8 +75,8 @@ function encryptMsg(){
     temp = plainText[i];
     plainText[i] = plainText[i+1];
     plainText[i+1] = temp;
-    cypherText = cypherText + plainText[i] + plainText[i+1];
-    console.log(cypherText());
+    cipherText = cipherText + plainText[i] + plainText[i+1];
+    console.log(cipherText.to Lower Case);
     
   }
 }
