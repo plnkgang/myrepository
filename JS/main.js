@@ -86,3 +86,22 @@ encryptMsg()
 
 
 
+
+
+var btns = document.querySelectorAll(".buttons button");
+var bear = document.getElementByClassName("bear")[0];
+
+for (i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", manageBearClasses);
+}
+
+
+function manageBearClasses() {
+  if (this.getAttribute("data-add")) {  
+    bear.classList.add(this.getAttribute("data-add"));
+  }
+
+  if (this.getAttribute("data-remove")) {  
+    bear.classList.remove(this.getAttribute("data-remove"));
+  }
+}
