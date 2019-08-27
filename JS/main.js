@@ -5,7 +5,7 @@ function welcomeUser(){
     alert("Welcome! "+ name);
 
 }
-welcomeUser()
+
 
 
 
@@ -28,7 +28,6 @@ function biggerNum(){
         console.log("You didn't enter two numbers");
     }
 }
-biggerNum()
 
 
 
@@ -80,7 +79,7 @@ function encryptMsg(){
     
   }
 }
-encryptMsg()
+
 
 
 
